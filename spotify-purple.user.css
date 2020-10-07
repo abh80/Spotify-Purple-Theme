@@ -8,9 +8,8 @@
 @homepageURL https://github.com/abh80/Spotify-Purple-Theme
 @updateURL   https://raw.githubusercontent.com/abh80/Spotify-Purple-Theme/main/spotify-purple.user.css
 ==/UserStyle== */
-
 body {
-    background: linear-gradient(-45deg,blue, purple, #ff05ff);
+    background: linear-gradient(-45deg, blue, purple, #ff05ff);
     background-size: 400% 400%;
     animation: gradient 40s ease infinite;
 }
@@ -75,11 +74,18 @@ body {
 .e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss .da0bc4060bb1bdb4abb8e402916af32e-scss {
     color: #ff05ff;
 }
-.a65d8d62fe56eed3e660b937a9be8a93-scss, .a65d8d62fe56eed3e660b937a9be8a93-scss:hover {
+.a65d8d62fe56eed3e660b937a9be8a93-scss,
+.a65d8d62fe56eed3e660b937a9be8a93-scss:hover {
     color: #ff05ff;
 }
 ._5814e6eb4f933d11bfa18c01b92eff76-scss {
-    content:  url("https://raw.githubusercontent.com/abh80/abh80/master/pink-eq.gif");
+    content: url("https://raw.githubusercontent.com/abh80/abh80/master/pink-eq.gif");
+}
+.e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss:hover .da0bc4060bb1bdb4abb8e402916af32e-scss {
+    color: #03baf7;
+}
+.e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss:focus-within .da0bc4060bb1bdb4abb8e402916af32e-scss {
+    color: #03baf7;
 }
 
 @keyframes gradient {
