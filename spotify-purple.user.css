@@ -23,7 +23,7 @@ body {
     opacity: .9;
 }
 .Root__nav-bar {
-    background-color: rgb(128, 0, 128, 0.8);
+    background-color: transparent;
 }
 .d1c9699572913ee01b0280946ab1f470-scss {
     background-color: #5b015b;
@@ -54,7 +54,7 @@ body {
     background-color: rgb(128, 0, 128, 0.6);
 }
 ._5c12c73a4f38b98340ea33803209fdc8-scss {
-    background-color: rgb(128, 0, 128, 0.8);
+    background-color: transparent;
 }
 ._59ed5f1313c7c4b211995d2b6463683f-scss {
     visibility: hidden;
