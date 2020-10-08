@@ -68,7 +68,7 @@ body {
     background-color: rgb(128, 0, 128, 0.6);
 }
 .control-button {
-    color: rgb(8, 223, 255);
+    color: white;
 }
 .progress-bar__fg {
     background-color: pink;
@@ -91,6 +91,15 @@ body {
 }
 .e8ea6a219247d88aa936a012f6227b0d-scss._4b308d5c9250cfb0620ce3b40765ef4a-scss:focus-within .da0bc4060bb1bdb4abb8e402916af32e-scss {
     color: #03baf7;
+}
+.control-button--active-dot:after{
+    background-color : white;
+}
+[class*=" spoticon-"]:before {
+    text-decoration : white
+}
+.control-button--active:not(.control-button--disabled):focus, .control-button--active:not(.control-button--disabled):hover {
+    color: #ff05ff;
 }
 
 @keyframes gradient {
