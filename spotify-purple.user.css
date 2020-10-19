@@ -101,7 +101,18 @@ body {
 .control-button--active:not(.control-button--disabled):focus, .control-button--active:not(.control-button--disabled):hover {
     color: #ff05ff;
 }
-
+._3f37264be67c8f40fa9f76449afdb4bd-scss {
+    visibility : hidden;
+}
+._0f1a8f7fdd1d622cbfe4c283f4f5cd72-scss:focus {
+    background-color: purple;
+}
+._0f1a8f7fdd1d622cbfe4c283f4f5cd72-scss:focus-within {
+    background-color: purple;
+}
+._3802c04052af0bb5d03956299250789e-scss:hover {
+     background-color: purple;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
